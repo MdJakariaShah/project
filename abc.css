@@ -1,0 +1,274 @@
+*{padding: 0;
+margin: 0;
+}
+header{
+
+	width: 960px;
+	height: auto;
+	margin: auto;s
+}
+.nav{
+	text-align: center;
+	width: 960px;
+	height: auto;
+	background: gray;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.nav ul li a{
+display: block;
+padding: 20px 35px;
+color: black;
+font-size: 20px;
+font-weight: bold;
+text-transform: lowercase;
+text-decoration: none;
+
+}
+
+.nav ul li a:hover{
+	color: red;
+	background: yellow;
+}
+.nav ul li ul{
+	position: absolute;
+	background: gray;
+	left: -9999px;
+}
+
+.nav ul li:hover ul{
+	left: 0px;
+}
+.nav ul li ul li{
+	
+	width: 200px;
+	border-bottom: 2px solid red;
+}
+.bener-cover{
+	height: 80vh;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bener-text button{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercases;
+	padding: 15px;
+	margin: 0px 0px;
+	border: none;
+	background-color:grey;
+	color: black;
+	border-radius: 10px;
+
+
+}
+.bener-text button:hover{
+	background-color: black;
+	color: red;
+
+}
+.bener-text{
+	padding: 100px;
+	text-align: center;
+}
+.about-logo img{
+	width: 320px;
+	height: auto;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 10px 10px 0px black;
+
+}
+.about-text{
+	width: 520px;
+	height: auto;
+	padding: 0px 20px
+}
+.about-text h2{
+
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+
+
+.row{
+	overflow: auto;
+}
+.col{
+	float: left;
+}
+.about-text p{
+	color: gray;
+	line-height: 22px;
+	font-size: 15px;
+
+}
+.About-section{
+	padding: 40px 0px;
+	background: #ddd;
+	margin-top: 20px;
+}
+.title{
+	width: 150px;
+	height: auto;
+	margin: 0 auto;
+}
+.title h2{ 
+font-size: 20px; 
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+border-bottom: 2px solid red;
+text-align: center;
+margin-bottom: 30px;
+}
+.Services{
+	width: 280px;
+	height: auto;
+	border: 1px solid black ;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+.Services-section{
+	background:gray;
+	padding: 40px 0px;
+	margin-top: 20px;
+	text-align: center;
+}
+.Serv-icon i{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	transition: 1s ease;
+}
+.Serv-icon i:hover{
+	color: red;
+	transform: scale(.8);
+}
+.Services h3{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: auto;
+	text-transform: uppercases;
+}
+..Services p{
+	font-size: 15px;
+	line-height: 22px;
+	color: black;
+}
+.contact{
+	background: white;
+	padding: 15px 15px 15px 80px ;
+	box-shadow: 0px 0px 10px blue;
+	width: 205px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 8px;
+
+}
+.cont-icon{
+	width: 50px;
+	height: 50px;
+	background: black;
+	position: absolute;
+	top: 8px;
+	left:15px;
+	float: left;
+	text-align: center;
+	color: red;
+	line-height: 50px;
+	font-size: 30pxs;
+	transition: 2s ease;
+
+}
+.cont-icon i:hover{
+	color: yellow;
+	transform: scale(.8);
+	font-size:50px;
+
+}
+.cont-text p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	line-height: 22px;
+}
+.cont-text1 p{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	line-height: 22px;
+}
+.content-section{
+	background: #7474b1;
+	padding: 40px 0px;
+	margin-top: 20px;
+}
+.contact-form{
+	width: 620px;
+	height: 0 auto;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.input-tag input{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	width: 80%;
+	border: none;
+	margin: 8px 0px;
+}
+.input-tag textarea{
+	width: 517px;
+	height: auto;
+	border: none;
+}
+.input-tag button{
+	width: 84%;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	background: gray;
+	margin-top: 4px;
+	border: none;
+}
+footer{
+	width: 960px;
+	height:  50px;
+	margin: auto;
+	color: white;
+	background: black;
+	padding: 20px 0px;
+}
+.footer-icon{
+	float: right;
+}
+.footer-icon i{
+	font-size: 20px;
+	transition: 1s ease;
+	margin-right: 30px;
+
+
+}
+.footer-text{
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.footer-icon i:hover{
+	color: blue;
+	transform: scale(0.8);
+	
+}
